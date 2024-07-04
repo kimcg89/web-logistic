@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제품 상세 정보</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .sidebar {
+            width: 200px;
+            background-color: #f8f9fa;
+            padding: 20px;
+            height: 100vh;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            border-bottom: 1px solid #e9ecef;
+            background-color: #fff;
+        }
+        .product-info, .stock-info {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .product-info img {
+            width: 100px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .product-details, .stock-details {
+            margin-top: 10px;
+        }
+        .stock-info {
+            max-width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>BOXHERO</h2>
+        <nav>
+            <ul>
+                <li>제품목록</li>
+                <li>입고</li>
+                <li>출고</li>
+                <li>조정</li>
+                <li>히스토리</li>
+                <li>재고 링크</li>
+                <li>구매 및 판매</li>
+                <li>분석 및 알림</li>
+                <li>바코드 인쇄</li>
+                <li>데이터 관리</li>
+                <li>결제 및 설정</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <div class="header">
+            <h1>제품 상세 정보</h1>
+        </div>
+        <div class="product-info">
+            <h2>제품 정보</h2>
+            <div class="product-details">
+                <p><strong>제품명:</strong> 18SS CANYON 샌들 블랙</p>
+                <p><strong>바코드:</strong> 2046524579521</p>
+                <p><strong>구매가:</strong> ₩98,000</p>
+                <p><strong>판매가:</strong> ₩170,000</p>
+                <img src="path_to_your_image.png" alt="Product Image">
+                <p><strong>카테고리:</strong> 샌들</p>
+                <p><strong>브랜드:</strong> 말리부샌들</p>
+                <p><strong>사이즈:</strong> 260</p>
+                <p><strong>상품코드:</strong> 245003</p>
+                <p><strong>안전 재고:</strong> 15</p>
+                <p><strong>컬러:</strong> 블랙</p>
+                <p><strong>바코드:</strong> -</p>
+            </div>
+        </div>
+        <div class="stock-info">
+            <h2>현재 재고 및 내역</h2>
+            <div class="stock-details">
+                <p><strong>현재 재고:</strong> 11</p>
+                <p><strong>입고:</strong> 2022-06-28 (+1)</p>
+                <p><strong>출고:</strong> 2022-08-10 (-5)</p>
+                <p><strong>출고:</strong> 2022-05-13 (-2)</p>
+                <p><strong>출고:</strong> 2022-05-04 (-4)</p>
+                <p><strong>조정:</strong> 2022-05-04 (+21)</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
