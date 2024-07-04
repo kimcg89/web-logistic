@@ -14,7 +14,7 @@ const InStorage = () => {
     itemName: '사이다 2.0패키지',
     model: 'Cider Ver 2.0',
     unit: 'EA',
-    rack: 'ABC',
+    rack: '1',
     barcode: '2046524579521',
     date: new Date().toISOString().split('T')[0]
   });
